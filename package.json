@@ -24,6 +24,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.0",
     "multer": "^2.0.2",
+    "node-cron": "^4.2.1",
     "node-fetch": "^3.3.2",
     "openai": "^5.11.0",
     "twitter-api-v2": "^1.24.0"
