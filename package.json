@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for the X Automation App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "deepai": "^1.0.23",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "mongoose": "^8.17.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.11.0",
+    "twitter-api-v2": "^1.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
