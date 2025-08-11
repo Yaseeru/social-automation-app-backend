@@ -84,7 +84,7 @@ router.get('/callback', async (req, res) => {
 
     const token = generateToken(existingUser._id);
     
-    const frontendCallbackUrl = `http://localhost:5173/dashboard?token=${token}&user=${JSON.stringify({ xId: existingUser.xId, username: existingUser.username, name: existingUser.name })}`;
+    const frontendCallbackUrl = `https://social-automatio-app.netlify.app/dashboard?token=${token}&user=${JSON.stringify({ xId: existingUser.xId, username: existingUser.username, name: existingUser.name })}`;
     
     return res.redirect(frontendCallbackUrl);
 

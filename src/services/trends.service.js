@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // This is the base URL of your Python Flask API.
-const PYTHON_API_BASE_URL = 'http://localhost:5000';
+const PYTHON_API_BASE_URL = process.env.PYTHON_API_BASE_URL
 
 class TrendsService {
   /**
